@@ -1,0 +1,24 @@
+{
+  "redirects": [
+    {
+      "source": "/edge.html",
+      "destination": "/page.html",
+      "permanent": true
+    },
+    {
+      "source": "/faq.html",
+      "destination": "/page.html",
+      "permanent": true
+    },
+    {
+      "source": "/index-2.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    }
+  ]
+}
