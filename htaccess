@@ -1,3 +1,2 @@
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^(www\.)?westctech\.com [NC]
-RewriteRule ^(.*)$ https://westcoaststonework.com/$1 [R=301,L]
+# Westctech static site - no domain redirect rules.
+Options -Indexes
