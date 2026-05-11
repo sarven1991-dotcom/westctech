@@ -19,6 +19,21 @@
       "source": "/index.html",
       "destination": "/",
       "permanent": true
+    },
+    {
+      "source": "/all_styles.html",
+      "destination": "/page.html",
+      "permanent": true
+    },
+    {
+      "source": "/blog.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/single.html",
+      "destination": "/page.html",
+      "permanent": true
     }
   ]
 }
