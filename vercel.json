@@ -1,7 +1,22 @@
 {
   "redirects": [
     {
-      "source": "/all_styles.html",
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/index-2.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/faq.html",
+      "destination": "/page.html",
+      "permanent": true
+    },
+    {
+      "source": "/single.html",
       "destination": "/page.html",
       "permanent": true
     },
@@ -11,28 +26,23 @@
       "permanent": true
     },
     {
-      "source": "/single.html",
-      "destination": "/page.html",
+      "source": "/all_styles.html",
+      "destination": "/portfolio.html",
       "permanent": true
     },
     {
       "source": "/edge.html",
-      "destination": "/page.html",
-      "permanent": true
-    },
-    {
-      "source": "/faq.html",
-      "destination": "/page.html",
-      "permanent": true
-    },
-    {
-      "source": "/index-2.html",
       "destination": "/",
       "permanent": true
     },
     {
-      "source": "/index.html",
-      "destination": "/",
+      "source": "/about.html",
+      "destination": "/aboutus.html",
+      "permanent": true
+    },
+    {
+      "source": "/contact.html",
+      "destination": "/contacts.html",
       "permanent": true
     }
   ]
