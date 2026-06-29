@@ -1,20 +1,15 @@
-# westctech.com legacy hosting notes
-# Do not redirect this domain to westcoaststonework.com.
-# Canonical public domain: https://www.westctech.com/
-
 RewriteEngine On
 
-# Force HTTPS + www if this file is used by Apache hosting.
-RewriteCond %{HTTPS} !=on [OR]
-RewriteCond %{HTTP_HOST} !^www\.westctech\.com$ [NC]
-RewriteRule ^(.*)$ https://www.westctech.com/$1 [R=301,L]
-
-# Old/missing URL cleanup
-Redirect 301 /index-2.html /
-Redirect 301 /faq.html /page.html
-Redirect 301 /single.html /page.html
-Redirect 301 /blog.html /
-Redirect 301 /all_styles.html /portfolio.html
-Redirect 301 /edge.html /
-Redirect 301 /about.html /aboutus.html
-Redirect 301 /contact.html /contacts.html
+Redirect 301 /contacts.html https://westcoaststonework.com/contact.html
+Redirect 301 /aboutus.html https://westcoaststonework.com/about.html
+Redirect 301 /page.html https://westcoaststonework.com/about.html
+Redirect 301 /kitchen.html https://westcoaststonework.com/kitchen-countertops-los-angeles.html
+Redirect 301 /portfolio.html https://westcoaststonework.com/work.html
+Redirect 301 /fireplace.html https://westcoaststonework.com/fireplace-stone-installation-los-angeles.html
+Redirect 301 /bathroom.html https://westcoaststonework.com/bathroom-vanity-tops-los-angeles.html
+Redirect 301 /stone-slabs-los-angeles.html https://westcoaststonework.com/premium-countertop-surfaces-los-angeles.html
+Redirect 301 /flooring.html https://westcoaststonework.com/stone-fabrication-los-angeles.html
+Redirect 301 /faq.html https://westcoaststonework.com/stone-fabrication-los-angeles.html
+Redirect 301 /wip1.html https://westcoaststonework.com/shower-slab-walls-los-angeles.html
+Redirect 301 /wip2.html https://westcoaststonework.com/shower-slab-walls-los-angeles.html
+Redirect 301 /wip3.html https://westcoaststonework.com/shower-slab-walls-los-angeles.html

@@ -1,49 +1,17 @@
 {
   "redirects": [
-    {
-      "source": "/index.html",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/index-2.html",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/faq.html",
-      "destination": "/page.html",
-      "permanent": true
-    },
-    {
-      "source": "/single.html",
-      "destination": "/page.html",
-      "permanent": true
-    },
-    {
-      "source": "/blog.html",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/all_styles.html",
-      "destination": "/portfolio.html",
-      "permanent": true
-    },
-    {
-      "source": "/edge.html",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/about.html",
-      "destination": "/aboutus.html",
-      "permanent": true
-    },
-    {
-      "source": "/contact.html",
-      "destination": "/contacts.html",
-      "permanent": true
-    }
+    { "source": "/contacts.html", "destination": "https://westcoaststonework.com/contact.html", "permanent": true },
+    { "source": "/aboutus.html", "destination": "https://westcoaststonework.com/about.html", "permanent": true },
+    { "source": "/page.html", "destination": "https://westcoaststonework.com/about.html", "permanent": true },
+    { "source": "/kitchen.html", "destination": "https://westcoaststonework.com/kitchen-countertops-los-angeles.html", "permanent": true },
+    { "source": "/portfolio.html", "destination": "https://westcoaststonework.com/work.html", "permanent": true },
+    { "source": "/fireplace.html", "destination": "https://westcoaststonework.com/fireplace-stone-installation-los-angeles.html", "permanent": true },
+    { "source": "/bathroom.html", "destination": "https://westcoaststonework.com/bathroom-vanity-tops-los-angeles.html", "permanent": true },
+    { "source": "/stone-slabs-los-angeles.html", "destination": "https://westcoaststonework.com/premium-countertop-surfaces-los-angeles.html", "permanent": true },
+    { "source": "/flooring.html", "destination": "https://westcoaststonework.com/stone-fabrication-los-angeles.html", "permanent": true },
+    { "source": "/faq.html", "destination": "https://westcoaststonework.com/stone-fabrication-los-angeles.html", "permanent": true },
+    { "source": "/wip1.html", "destination": "https://westcoaststonework.com/shower-slab-walls-los-angeles.html", "permanent": true },
+    { "source": "/wip2.html", "destination": "https://westcoaststonework.com/shower-slab-walls-los-angeles.html", "permanent": true },
+    { "source": "/wip3.html", "destination": "https://westcoaststonework.com/shower-slab-walls-los-angeles.html", "permanent": true }
   ]
 }
